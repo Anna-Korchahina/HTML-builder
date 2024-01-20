@@ -16,8 +16,8 @@ process.on('SIGINT', () => {
 const inputHandler = (data) => {
   if (data.toString().trim() === 'exit' || data === 'signal') {
     console.log(`
-    Hey, I completed this task! I'm excited and going to listen to the song "DON'T STOP" by NOTHING MORE. 
-    And you please keep checking ;))
+    Hey, I completed this task! I'm excited and going to listen the song "DON'T STOP" by NOTHING MORE and thinking about next task 'Nonograms'.
+    And you please, keep checking ;))
 `);
     process.exit();
   }
